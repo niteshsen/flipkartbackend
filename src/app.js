@@ -13,7 +13,7 @@ const Register = require("../models/register");
 const Order = require("../models/Orders");
 const cors = require("cors");
 const FlipkartData = require("../models/flipkartData");
-const port = process.env.PORT || 8000;
+const port = process.env.PORT 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
