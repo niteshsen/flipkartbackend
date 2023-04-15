@@ -11,7 +11,7 @@ const Carousel = require("../models/carousels");
 const Feed = require("../models/feeds");
 const Register = require("../models/register");
 const Order = require("../models/Orders");
-const cors = require("cors");ū
+const cors = require("cors");
 const FlipkartData = require("../models/flipkartData");
 const port = process.env.PORT || 8000;
 app.use(express.json());
