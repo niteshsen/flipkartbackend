@@ -106,10 +106,10 @@ app.get("/houseItems", async (req, res) => {
 app.get("/fashionItems", async (req, res) => {
   try {
     const fashion = await Fashion.find();
-    res.send(fashion);
+    res.send(fashion);   
   } catch (err) {
     res.send(err);
-  }
+  }   
   res.status(201);
 });
 
